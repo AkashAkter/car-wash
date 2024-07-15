@@ -1,5 +1,6 @@
 # CAR-WASH-BACKEND
-This project is an Express application built with TypeScript, integrating MongoDB using Mongoose for effective data management. It ensures data integrity through validation using Zod.
+
+This project is an Express application that uses TypeScript and Mongoose to integrate MongoDB and handle data efficiently. Through the use of Zod for validation, data integrity is ensured.
 
 ## Features
 
@@ -16,21 +17,27 @@ This project is an Express application built with TypeScript, integrating MongoD
 - npm
 - Git
 
-# Installation 
+# Installation
+
 ## Clone the repository
+
 ```sh
- git clone  https://github.com/syedfarhanreza/e-commerce.git
+ git clone  https://github.com/AkashAkter/car-wash
  cd e-commerce
 ```
 
 ## Install dependencies
+
 Open the project file in the terminal and run `npm install`
+
 ```sh
 npm install
 ```
 
 ## Set up environment variables
-Create a `.env`  file in the root directory and add the following:
+
+Create a `.env` file in the root directory and add the following:
+
 ```
 NODE_ENV= development
 MONGO_URI=your_mongo_db_connection_string
@@ -40,15 +47,7 @@ PORT=5000
 ```
 
 ## Start the server
+
 ```
 npm run start:dev
 ```
-
-
-
-
-
-
-
-
-
